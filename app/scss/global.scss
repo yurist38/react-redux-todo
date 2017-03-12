@@ -1,0 +1,30 @@
+@import 'variables';
+@import '../../node_modules/muicss/dist/css/mui.min';
+@import '../../node_modules/sweetalert2/dist/sweetalert2.min.css';
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.mui-btn--fab.floatButton {
+  position: fixed;
+  display: block;
+  bottom: 15px;
+  right: 15px;
+  font-size: 2.4rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mui--text-display1 {
+  text-align: center;
+}
+
+.mui-container {
+  word-wrap: break-word;
+  padding-bottom: 15px;
+}
